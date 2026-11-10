@@ -598,8 +598,12 @@ function baixarJSON() {
    ============================================================ */
 function roteador() {
   let h = location.hash.replace(/^#\/?/, '');
-  // compatibilidade com QR Codes antigos:  #morango  ->  #/alimento/morango
-  if (h && !h.includes('/') && !['sobre', 'adm', 'comentarios'].includes(h)) { location.replace(`#/alimento/${h}`); return; }
+ 
+// Compatibilidade com QR Codes antigos
+if (h && !h.includes('/') && !['sobre', 'adm', 'comentarios'].includes(h)) {
+    location.replace(`#/alimento/${h}`);
+    return;
+}
 
   const [rota, param] = h.split('/');
   document.querySelectorAll('[data-nav]').forEach(l =>
