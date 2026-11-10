@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecionando…</title>
+  <script>
+    // O GitHub Pages mostra este arquivo quando o endereço não existe (ex.: /adm).
+    // Ele converte "/adm" em "/#/adm" e volta para o site.
+    //
+    // PASTAS_DE_BASE:
+    //   1 -> site em  usuario.github.io/NOME-DO-REPOSITORIO/   (padrão)
+    //   0 -> site em  usuario.github.io/  (repositório "usuario.github.io") ou domínio próprio
+    var PASTAS_DE_BASE = 1;
+
+    var partes = location.pathname.split('/').filter(Boolean);
+    var base = '/' + partes.slice(0, PASTAS_DE_BASE).join('/');
+    if (base !== '/') base += '/';
+    var resto = partes.slice(PASTAS_DE_BASE).join('/');
+    location.replace(location.origin + base + '#/' + resto);
+  </script>
+</head>
+<body>Redirecionando… <a href="./">voltar ao início</a></body>
+</html>

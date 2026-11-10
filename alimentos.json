@@ -1,0 +1,2419 @@
+{
+  "versao": 2,
+  "alimentos": [
+    {
+      "id": "morango",
+      "nome": "Morango",
+      "categoria": "fruta",
+      "descricao": "Fruta vermelha, suculenta e aromática, ótima para consumir fresca, em vitaminas e sobremesas.",
+      "nutrientes": [
+        "Vitamina C",
+        "manganês",
+        "folato e fibras"
+      ],
+      "beneficios": [
+        "Contribui para a ingestão de vitamina C e fibras",
+        "contém compostos antioxidantes."
+      ],
+      "imagem": "https://images.unsplash.com/photo-1464965911861-746a04b4bca6?w=800&q=85",
+      "receitas": [
+        {
+          "nome": "Vitamina de morango",
+          "ingredientes": [
+            "Morango",
+            "leite ou bebida vegetal e gelo"
+          ],
+          "modoPreparo": "Bata tudo no liquidificador até ficar cremoso."
+        }
+      ]
+    },
+    {
+      "id": "banana",
+      "nome": "Banana",
+      "categoria": "fruta",
+      "descricao": "Fruta macia e naturalmente doce, prática para lanches e preparações.",
+      "nutrientes": [
+        "Potássio",
+        "vitamina B6",
+        "vitamina C e fibras"
+      ],
+      "beneficios": [
+        "Fornece energia e fibras",
+        "o potássio participa do funcionamento muscular."
+      ],
+      "imagem": "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=800&q=85",
+      "receitas": [
+        {
+          "nome": "Panqueca de banana",
+          "ingredientes": [
+            "1 banana madura",
+            "1 ovo e 2 colheres de aveia"
+          ],
+          "modoPreparo": "Amasse a banana, misture os ingredientes e doure porções em frigideira antiaderente."
+        }
+      ]
+    },
+    {
+      "id": "laranja",
+      "nome": "Laranja",
+      "categoria": "fruta",
+      "descricao": "Fruta cítrica e refrescante, pode ser consumida in natura ou em preparações.",
+      "nutrientes": [
+        "Vitamina C",
+        "folato e fibras"
+      ],
+      "beneficios": [
+        "A vitamina C contribui para o funcionamento normal do sistema imunológico."
+      ],
+      "imagem": "https://images.unsplash.com/photo-1582979512210-99b6a53386f9?w=800&q=85",
+      "receitas": [
+        {
+          "nome": "Salada cítrica",
+          "ingredientes": [
+            "Laranja",
+            "folhas verdes e azeite"
+          ],
+          "modoPreparo": "Descasque a laranja, separe os gomos e misture às folhas. Tempere a gosto."
+        }
+      ]
+    },
+    {
+      "id": "abacate",
+      "nome": "Abacate",
+      "categoria": "fruta",
+      "descricao": "Polpa cremosa e versátil, usada em receitas doces e salgadas.",
+      "nutrientes": [
+        "Gorduras monoinsaturadas",
+        "fibras",
+        "vitamina E e potássio"
+      ],
+      "beneficios": [
+        "Contém gorduras insaturadas e fibras que fazem parte de uma alimentação equilibrada."
+      ],
+      "imagem": "https://images.unsplash.com/photo-1519162808019-7de1683fa2ad?w=800&q=85",
+      "receitas": [
+        {
+          "nome": "Guacamole simples",
+          "ingredientes": [
+            "Abacate",
+            "tomate",
+            "cebola",
+            "limão e sal"
+          ],
+          "modoPreparo": "Amasse o abacate e misture os demais ingredientes picados."
+        }
+      ]
+    },
+    {
+      "id": "manga",
+      "nome": "Manga",
+      "categoria": "fruta",
+      "descricao": "Fruta tropical de polpa doce e aromática, ideal para sucos e saladas.",
+      "nutrientes": [
+        "Vitaminas A e C",
+        "fibras e carotenoides"
+      ],
+      "beneficios": [
+        "Fornece carotenoides e vitamina C, além de fibras."
+      ],
+      "imagem": "https://images.unsplash.com/photo-1553279768-865429fa0078?w=800&q=85",
+      "receitas": [
+        {
+          "nome": "Molho de manga",
+          "ingredientes": [
+            "Manga madura",
+            "limão",
+            "hortelã e água"
+          ],
+          "modoPreparo": "Bata os ingredientes até formar um molho leve."
+        }
+      ]
+    },
+    {
+      "id": "mirtilo",
+      "nome": "Mirtilo",
+      "categoria": "fruta",
+      "descricao": "Pequena fruta azul-arroxeada, de sabor levemente adocicado e ácido.",
+      "nutrientes": [
+        "Antocianinas",
+        "vitamina C",
+        "vitamina K e fibras"
+      ],
+      "beneficios": [
+        "Possui pigmentos vegetais e fibras",
+        "pode compor lanches e sobremesas."
+      ],
+      "imagem": "https://images.unsplash.com/photo-1498557850523-fd3d118b962e?w=800&q=85",
+      "receitas": [
+        {
+          "nome": "Iogurte com mirtilos",
+          "ingredientes": [
+            "Mirtilos",
+            "iogurte natural e aveia"
+          ],
+          "modoPreparo": "Distribua os mirtilos sobre o iogurte e finalize com aveia."
+        }
+      ]
+    },
+    {
+      "id": "maca",
+      "nome": "Maçã",
+      "categoria": "fruta",
+      "descricao": "Maçã é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Fibras",
+        "vitamina C e polifenóis"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Ma%C3%A7%C3%A3,food?lock=16",
+      "receitas": [
+        {
+          "nome": "Salada de maçã",
+          "ingredientes": [
+            "Maçã",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "pera",
+      "nome": "Pera",
+      "categoria": "fruta",
+      "descricao": "Pera é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Fibras",
+        "vitamina C e potássio"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Pera,food?lock=17",
+      "receitas": [
+        {
+          "nome": "Salada de pera",
+          "ingredientes": [
+            "Pera",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "uva",
+      "nome": "Uva",
+      "categoria": "fruta",
+      "descricao": "Uva é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Vitamina K",
+        "cobre e polifenóis"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Uva,food?lock=18",
+      "receitas": [
+        {
+          "nome": "Salada de uva",
+          "ingredientes": [
+            "Uva",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "melancia",
+      "nome": "Melancia",
+      "categoria": "fruta",
+      "descricao": "Melancia é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Água",
+        "licopeno e vitamina C"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Melancia,food?lock=19",
+      "receitas": [
+        {
+          "nome": "Salada de melancia",
+          "ingredientes": [
+            "Melancia",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "melao",
+      "nome": "Melão",
+      "categoria": "fruta",
+      "descricao": "Melão é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Água",
+        "vitamina C e potássio"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Mel%C3%A3o,food?lock=20",
+      "receitas": [
+        {
+          "nome": "Salada de melão",
+          "ingredientes": [
+            "Melão",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "abacaxi",
+      "nome": "Abacaxi",
+      "categoria": "fruta",
+      "descricao": "Abacaxi é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Vitamina C",
+        "manganês e bromelina"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Abacaxi,food?lock=21",
+      "receitas": [
+        {
+          "nome": "Salada de abacaxi",
+          "ingredientes": [
+            "Abacaxi",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "mamao",
+      "nome": "Mamão",
+      "categoria": "fruta",
+      "descricao": "Mamão é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Vitamina C",
+        "vitamina A e fibras"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Mam%C3%A3o,food?lock=22",
+      "receitas": [
+        {
+          "nome": "Salada de mamão",
+          "ingredientes": [
+            "Mamão",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "limao",
+      "nome": "Limão",
+      "categoria": "fruta",
+      "descricao": "Limão é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Vitamina C e compostos cítricos"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Lim%C3%A3o,food?lock=23",
+      "receitas": [
+        {
+          "nome": "Salada de limão",
+          "ingredientes": [
+            "Limão",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "tangerina",
+      "nome": "Tangerina",
+      "categoria": "fruta",
+      "descricao": "Tangerina é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Vitamina C",
+        "folato e fibras"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Tangerina,food?lock=24",
+      "receitas": [
+        {
+          "nome": "Salada de tangerina",
+          "ingredientes": [
+            "Tangerina",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "goiaba",
+      "nome": "Goiaba",
+      "categoria": "fruta",
+      "descricao": "Goiaba é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Vitamina C",
+        "fibras e vitamina A"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Goiaba,food?lock=25",
+      "receitas": [
+        {
+          "nome": "Salada de goiaba",
+          "ingredientes": [
+            "Goiaba",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "kiwi",
+      "nome": "Kiwi",
+      "categoria": "fruta",
+      "descricao": "Kiwi é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Vitamina C",
+        "vitamina K e fibras"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Kiwi,food?lock=26",
+      "receitas": [
+        {
+          "nome": "Salada de kiwi",
+          "ingredientes": [
+            "Kiwi",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "pessego",
+      "nome": "Pêssego",
+      "categoria": "fruta",
+      "descricao": "Pêssego é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Vitaminas A e C e fibras"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/P%C3%AAssego,food?lock=27",
+      "receitas": [
+        {
+          "nome": "Salada de pêssego",
+          "ingredientes": [
+            "Pêssego",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "ameixa",
+      "nome": "Ameixa",
+      "categoria": "fruta",
+      "descricao": "Ameixa é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Fibras",
+        "vitamina K e antioxidantes"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Ameixa,food?lock=28",
+      "receitas": [
+        {
+          "nome": "Salada de ameixa",
+          "ingredientes": [
+            "Ameixa",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "cereja",
+      "nome": "Cereja",
+      "categoria": "fruta",
+      "descricao": "Cereja é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Antocianinas e vitamina C"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Cereja,food?lock=29",
+      "receitas": [
+        {
+          "nome": "Salada de cereja",
+          "ingredientes": [
+            "Cereja",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "framboesa",
+      "nome": "Framboesa",
+      "categoria": "fruta",
+      "descricao": "Framboesa é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Fibras",
+        "vitamina C e manganês"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Framboesa,food?lock=30",
+      "receitas": [
+        {
+          "nome": "Salada de framboesa",
+          "ingredientes": [
+            "Framboesa",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "amora",
+      "nome": "Amora",
+      "categoria": "fruta",
+      "descricao": "Amora é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Fibras",
+        "vitamina C e antocianinas"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Amora,food?lock=31",
+      "receitas": [
+        {
+          "nome": "Salada de amora",
+          "ingredientes": [
+            "Amora",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "coco",
+      "nome": "Coco",
+      "categoria": "fruta",
+      "descricao": "Coco é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Fibras",
+        "manganês e gorduras"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Coco,food?lock=32",
+      "receitas": [
+        {
+          "nome": "Salada de coco",
+          "ingredientes": [
+            "Coco",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "maracuja",
+      "nome": "Maracujá",
+      "categoria": "fruta",
+      "descricao": "Maracujá é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Fibras",
+        "vitamina C e vitamina A"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Maracuj%C3%A1,food?lock=33",
+      "receitas": [
+        {
+          "nome": "Salada de maracujá",
+          "ingredientes": [
+            "Maracujá",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "acerola",
+      "nome": "Acerola",
+      "categoria": "fruta",
+      "descricao": "Acerola é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Vitamina C e carotenoides"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Acerola,food?lock=34",
+      "receitas": [
+        {
+          "nome": "Salada de acerola",
+          "ingredientes": [
+            "Acerola",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "caju",
+      "nome": "Caju",
+      "categoria": "fruta",
+      "descricao": "Caju é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Vitamina C e cobre"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Caju,food?lock=35",
+      "receitas": [
+        {
+          "nome": "Salada de caju",
+          "ingredientes": [
+            "Caju",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "jabuticaba",
+      "nome": "Jabuticaba",
+      "categoria": "fruta",
+      "descricao": "Jabuticaba é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Antocianinas",
+        "fibras e vitamina C"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Jabuticaba,food?lock=36",
+      "receitas": [
+        {
+          "nome": "Salada de jabuticaba",
+          "ingredientes": [
+            "Jabuticaba",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "pitaya",
+      "nome": "Pitaya",
+      "categoria": "fruta",
+      "descricao": "Pitaya é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Fibras",
+        "vitamina C e magnésio"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Pitaya,food?lock=37",
+      "receitas": [
+        {
+          "nome": "Salada de pitaya",
+          "ingredientes": [
+            "Pitaya",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "caqui",
+      "nome": "Caqui",
+      "categoria": "fruta",
+      "descricao": "Caqui é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Fibras",
+        "vitamina A e vitamina C"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Caqui,food?lock=38",
+      "receitas": [
+        {
+          "nome": "Salada de caqui",
+          "ingredientes": [
+            "Caqui",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "roma",
+      "nome": "Romã",
+      "categoria": "fruta",
+      "descricao": "Romã é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Fibras",
+        "vitamina C e polifenóis"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Rom%C3%A3,food?lock=39",
+      "receitas": [
+        {
+          "nome": "Salada de romã",
+          "ingredientes": [
+            "Romã",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "graviola",
+      "nome": "Graviola",
+      "categoria": "fruta",
+      "descricao": "Graviola é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Fibras",
+        "vitamina C e potássio"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Graviola,food?lock=40",
+      "receitas": [
+        {
+          "nome": "Salada de graviola",
+          "ingredientes": [
+            "Graviola",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "cupuacu",
+      "nome": "Cupuaçu",
+      "categoria": "fruta",
+      "descricao": "Cupuaçu é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Fibras",
+        "vitamina C e minerais"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Cupua%C3%A7u,food?lock=41",
+      "receitas": [
+        {
+          "nome": "Salada de cupuaçu",
+          "ingredientes": [
+            "Cupuaçu",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "acai",
+      "nome": "Açaí",
+      "categoria": "fruta",
+      "descricao": "Açaí é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Antocianinas",
+        "fibras e gorduras"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/A%C3%A7a%C3%AD,food?lock=42",
+      "receitas": [
+        {
+          "nome": "Salada de açaí",
+          "ingredientes": [
+            "Açaí",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "pinha",
+      "nome": "Pinha",
+      "categoria": "fruta",
+      "descricao": "Pinha é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Vitamina C",
+        "fibras e potássio"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Pinha,food?lock=43",
+      "receitas": [
+        {
+          "nome": "Salada de pinha",
+          "ingredientes": [
+            "Pinha",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "nectarina",
+      "nome": "Nectarina",
+      "categoria": "fruta",
+      "descricao": "Nectarina é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Vitaminas A e C e fibras"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Nectarina,food?lock=44",
+      "receitas": [
+        {
+          "nome": "Salada de nectarina",
+          "ingredientes": [
+            "Nectarina",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "figo",
+      "nome": "Figo",
+      "categoria": "fruta",
+      "descricao": "Figo é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Fibras",
+        "potássio e cálcio"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Figo,food?lock=45",
+      "receitas": [
+        {
+          "nome": "Salada de figo",
+          "ingredientes": [
+            "Figo",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "physalis",
+      "nome": "physalis",
+      "categoria": "fruta",
+      "descricao": "physalis é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Vitamina C",
+        "fibras e carotenoides"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/physalis,food?lock=46",
+      "receitas": [
+        {
+          "nome": "Salada de physalis",
+          "ingredientes": [
+            "physalis",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "carambola",
+      "nome": "Carambola",
+      "categoria": "fruta",
+      "descricao": "Carambola é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Vitamina C",
+        "fibras e água"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Carambola,food?lock=47",
+      "receitas": [
+        {
+          "nome": "Salada de carambola",
+          "ingredientes": [
+            "Carambola",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "seriguela",
+      "nome": "Seriguela",
+      "categoria": "fruta",
+      "descricao": "Seriguela é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Vitamina C",
+        "carotenoides e fibras"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Seriguela,food?lock=48",
+      "receitas": [
+        {
+          "nome": "Salada de seriguela",
+          "ingredientes": [
+            "Seriguela",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "cambuci",
+      "nome": "Cambuci",
+      "categoria": "fruta",
+      "descricao": "Cambuci é uma fruta que pode ser consumida fresca ou utilizada em sucos, saladas e diferentes preparações.",
+      "nutrientes": [
+        "Vitamina C e compostos aromáticos"
+      ],
+      "beneficios": [
+        "Contribui para a variedade da alimentação e fornece fibras, vitaminas ou compostos vegetais."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Cambuci,food?lock=49",
+      "receitas": [
+        {
+          "nome": "Salada de cambuci",
+          "ingredientes": [
+            "Cambuci",
+            "outras frutas da estação",
+            "limão"
+          ],
+          "modoPreparo": "Lave, higienize, corte e misture com os demais ingredientes. Sirva fresco."
+        }
+      ]
+    },
+    {
+      "id": "alface",
+      "nome": "Alface",
+      "categoria": "verdura",
+      "descricao": "Alface é uma verdura que pode ser utilizada em saladas, refogados e acompanhamentos.",
+      "nutrientes": [
+        "Vitamina K",
+        "folato e água"
+      ],
+      "beneficios": [
+        "Ajuda a diversificar o consumo de vegetais e fornece vitaminas, minerais e fibras."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Alface,food?lock=50",
+      "receitas": [
+        {
+          "nome": "Refogado de alface",
+          "ingredientes": [
+            "Alface",
+            "alho",
+            "azeite",
+            "sal"
+          ],
+          "modoPreparo": "Higienize e pique. Refogue o alho no azeite, acrescente a verdura e cozinhe até ficar macia."
+        }
+      ]
+    },
+    {
+      "id": "couve",
+      "nome": "Couve",
+      "categoria": "verdura",
+      "descricao": "Couve é uma verdura que pode ser utilizada em saladas, refogados e acompanhamentos.",
+      "nutrientes": [
+        "Vitaminas K",
+        "A e C e cálcio"
+      ],
+      "beneficios": [
+        "Ajuda a diversificar o consumo de vegetais e fornece vitaminas, minerais e fibras."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Couve,food?lock=51",
+      "receitas": [
+        {
+          "nome": "Refogado de couve",
+          "ingredientes": [
+            "Couve",
+            "alho",
+            "azeite",
+            "sal"
+          ],
+          "modoPreparo": "Higienize e pique. Refogue o alho no azeite, acrescente a verdura e cozinhe até ficar macia."
+        }
+      ]
+    },
+    {
+      "id": "espinafre",
+      "nome": "Espinafre",
+      "categoria": "verdura",
+      "descricao": "Espinafre é uma verdura que pode ser utilizada em saladas, refogados e acompanhamentos.",
+      "nutrientes": [
+        "Folato",
+        "ferro e vitaminas A e K"
+      ],
+      "beneficios": [
+        "Ajuda a diversificar o consumo de vegetais e fornece vitaminas, minerais e fibras."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Espinafre,food?lock=52",
+      "receitas": [
+        {
+          "nome": "Refogado de espinafre",
+          "ingredientes": [
+            "Espinafre",
+            "alho",
+            "azeite",
+            "sal"
+          ],
+          "modoPreparo": "Higienize e pique. Refogue o alho no azeite, acrescente a verdura e cozinhe até ficar macia."
+        }
+      ]
+    },
+    {
+      "id": "rucula",
+      "nome": "Rúcula",
+      "categoria": "verdura",
+      "descricao": "Rúcula é uma verdura que pode ser utilizada em saladas, refogados e acompanhamentos.",
+      "nutrientes": [
+        "Vitamina K",
+        "folato e cálcio"
+      ],
+      "beneficios": [
+        "Ajuda a diversificar o consumo de vegetais e fornece vitaminas, minerais e fibras."
+      ],
+      "imagem": "https://loremflickr.com/800/500/R%C3%BAcula,food?lock=53",
+      "receitas": [
+        {
+          "nome": "Refogado de rúcula",
+          "ingredientes": [
+            "Rúcula",
+            "alho",
+            "azeite",
+            "sal"
+          ],
+          "modoPreparo": "Higienize e pique. Refogue o alho no azeite, acrescente a verdura e cozinhe até ficar macia."
+        }
+      ]
+    },
+    {
+      "id": "agriao",
+      "nome": "Agrião",
+      "categoria": "verdura",
+      "descricao": "Agrião é uma verdura que pode ser utilizada em saladas, refogados e acompanhamentos.",
+      "nutrientes": [
+        "Vitaminas K e C e cálcio"
+      ],
+      "beneficios": [
+        "Ajuda a diversificar o consumo de vegetais e fornece vitaminas, minerais e fibras."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Agri%C3%A3o,food?lock=54",
+      "receitas": [
+        {
+          "nome": "Refogado de agrião",
+          "ingredientes": [
+            "Agrião",
+            "alho",
+            "azeite",
+            "sal"
+          ],
+          "modoPreparo": "Higienize e pique. Refogue o alho no azeite, acrescente a verdura e cozinhe até ficar macia."
+        }
+      ]
+    },
+    {
+      "id": "acelga",
+      "nome": "Acelga",
+      "categoria": "verdura",
+      "descricao": "Acelga é uma verdura que pode ser utilizada em saladas, refogados e acompanhamentos.",
+      "nutrientes": [
+        "Vitaminas A",
+        "C e K"
+      ],
+      "beneficios": [
+        "Ajuda a diversificar o consumo de vegetais e fornece vitaminas, minerais e fibras."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Acelga,food?lock=55",
+      "receitas": [
+        {
+          "nome": "Refogado de acelga",
+          "ingredientes": [
+            "Acelga",
+            "alho",
+            "azeite",
+            "sal"
+          ],
+          "modoPreparo": "Higienize e pique. Refogue o alho no azeite, acrescente a verdura e cozinhe até ficar macia."
+        }
+      ]
+    },
+    {
+      "id": "repolho",
+      "nome": "Repolho",
+      "categoria": "verdura",
+      "descricao": "Repolho é uma verdura que pode ser utilizada em saladas, refogados e acompanhamentos.",
+      "nutrientes": [
+        "Vitamina C",
+        "vitamina K e fibras"
+      ],
+      "beneficios": [
+        "Ajuda a diversificar o consumo de vegetais e fornece vitaminas, minerais e fibras."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Repolho,food?lock=56",
+      "receitas": [
+        {
+          "nome": "Refogado de repolho",
+          "ingredientes": [
+            "Repolho",
+            "alho",
+            "azeite",
+            "sal"
+          ],
+          "modoPreparo": "Higienize e pique. Refogue o alho no azeite, acrescente a verdura e cozinhe até ficar macia."
+        }
+      ]
+    },
+    {
+      "id": "repolho-roxo",
+      "nome": "Repolho roxo",
+      "categoria": "verdura",
+      "descricao": "Repolho roxo é uma verdura que pode ser utilizada em saladas, refogados e acompanhamentos.",
+      "nutrientes": [
+        "Antocianinas",
+        "vitamina C e fibras"
+      ],
+      "beneficios": [
+        "Ajuda a diversificar o consumo de vegetais e fornece vitaminas, minerais e fibras."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Repolho%20roxo,food?lock=57",
+      "receitas": [
+        {
+          "nome": "Refogado de repolho roxo",
+          "ingredientes": [
+            "Repolho roxo",
+            "alho",
+            "azeite",
+            "sal"
+          ],
+          "modoPreparo": "Higienize e pique. Refogue o alho no azeite, acrescente a verdura e cozinhe até ficar macia."
+        }
+      ]
+    },
+    {
+      "id": "chicoria",
+      "nome": "Chicória",
+      "categoria": "verdura",
+      "descricao": "Chicória é uma verdura que pode ser utilizada em saladas, refogados e acompanhamentos.",
+      "nutrientes": [
+        "Fibras",
+        "folato e vitamina K"
+      ],
+      "beneficios": [
+        "Ajuda a diversificar o consumo de vegetais e fornece vitaminas, minerais e fibras."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Chic%C3%B3ria,food?lock=58",
+      "receitas": [
+        {
+          "nome": "Refogado de chicória",
+          "ingredientes": [
+            "Chicória",
+            "alho",
+            "azeite",
+            "sal"
+          ],
+          "modoPreparo": "Higienize e pique. Refogue o alho no azeite, acrescente a verdura e cozinhe até ficar macia."
+        }
+      ]
+    },
+    {
+      "id": "escarola",
+      "nome": "Escarola",
+      "categoria": "verdura",
+      "descricao": "Escarola é uma verdura que pode ser utilizada em saladas, refogados e acompanhamentos.",
+      "nutrientes": [
+        "Folato",
+        "vitamina A e fibras"
+      ],
+      "beneficios": [
+        "Ajuda a diversificar o consumo de vegetais e fornece vitaminas, minerais e fibras."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Escarola,food?lock=59",
+      "receitas": [
+        {
+          "nome": "Refogado de escarola",
+          "ingredientes": [
+            "Escarola",
+            "alho",
+            "azeite",
+            "sal"
+          ],
+          "modoPreparo": "Higienize e pique. Refogue o alho no azeite, acrescente a verdura e cozinhe até ficar macia."
+        }
+      ]
+    },
+    {
+      "id": "almeirao",
+      "nome": "Almeirão",
+      "categoria": "verdura",
+      "descricao": "Almeirão é uma verdura que pode ser utilizada em saladas, refogados e acompanhamentos.",
+      "nutrientes": [
+        "Vitamina A",
+        "vitamina K e fibras"
+      ],
+      "beneficios": [
+        "Ajuda a diversificar o consumo de vegetais e fornece vitaminas, minerais e fibras."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Almeir%C3%A3o,food?lock=60",
+      "receitas": [
+        {
+          "nome": "Refogado de almeirão",
+          "ingredientes": [
+            "Almeirão",
+            "alho",
+            "azeite",
+            "sal"
+          ],
+          "modoPreparo": "Higienize e pique. Refogue o alho no azeite, acrescente a verdura e cozinhe até ficar macia."
+        }
+      ]
+    },
+    {
+      "id": "mostarda-folhas",
+      "nome": "Mostarda (folhas)",
+      "categoria": "verdura",
+      "descricao": "Mostarda (folhas) é uma verdura que pode ser utilizada em saladas, refogados e acompanhamentos.",
+      "nutrientes": [
+        "Vitaminas A",
+        "C e K"
+      ],
+      "beneficios": [
+        "Ajuda a diversificar o consumo de vegetais e fornece vitaminas, minerais e fibras."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Mostarda%20%28folhas%29,food?lock=61",
+      "receitas": [
+        {
+          "nome": "Refogado de mostarda (folhas)",
+          "ingredientes": [
+            "Mostarda (folhas)",
+            "alho",
+            "azeite",
+            "sal"
+          ],
+          "modoPreparo": "Higienize e pique. Refogue o alho no azeite, acrescente a verdura e cozinhe até ficar macia."
+        }
+      ]
+    },
+    {
+      "id": "salsinha",
+      "nome": "Salsinha",
+      "categoria": "verdura",
+      "descricao": "Salsinha é uma verdura que pode ser utilizada em saladas, refogados e acompanhamentos.",
+      "nutrientes": [
+        "Vitamina K",
+        "vitamina C e folato"
+      ],
+      "beneficios": [
+        "Ajuda a diversificar o consumo de vegetais e fornece vitaminas, minerais e fibras."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Salsinha,food?lock=62",
+      "receitas": [
+        {
+          "nome": "Refogado de salsinha",
+          "ingredientes": [
+            "Salsinha",
+            "alho",
+            "azeite",
+            "sal"
+          ],
+          "modoPreparo": "Higienize e pique. Refogue o alho no azeite, acrescente a verdura e cozinhe até ficar macia."
+        }
+      ]
+    },
+    {
+      "id": "cebolinha",
+      "nome": "Cebolinha",
+      "categoria": "verdura",
+      "descricao": "Cebolinha é uma verdura que pode ser utilizada em saladas, refogados e acompanhamentos.",
+      "nutrientes": [
+        "Vitamina K e vitamina C"
+      ],
+      "beneficios": [
+        "Ajuda a diversificar o consumo de vegetais e fornece vitaminas, minerais e fibras."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Cebolinha,food?lock=63",
+      "receitas": [
+        {
+          "nome": "Refogado de cebolinha",
+          "ingredientes": [
+            "Cebolinha",
+            "alho",
+            "azeite",
+            "sal"
+          ],
+          "modoPreparo": "Higienize e pique. Refogue o alho no azeite, acrescente a verdura e cozinhe até ficar macia."
+        }
+      ]
+    },
+    {
+      "id": "coentro",
+      "nome": "Coentro",
+      "categoria": "verdura",
+      "descricao": "Coentro é uma verdura que pode ser utilizada em saladas, refogados e acompanhamentos.",
+      "nutrientes": [
+        "Vitamina K e compostos aromáticos"
+      ],
+      "beneficios": [
+        "Ajuda a diversificar o consumo de vegetais e fornece vitaminas, minerais e fibras."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Coentro,food?lock=64",
+      "receitas": [
+        {
+          "nome": "Refogado de coentro",
+          "ingredientes": [
+            "Coentro",
+            "alho",
+            "azeite",
+            "sal"
+          ],
+          "modoPreparo": "Higienize e pique. Refogue o alho no azeite, acrescente a verdura e cozinhe até ficar macia."
+        }
+      ]
+    },
+    {
+      "id": "manjericao",
+      "nome": "Manjericão",
+      "categoria": "verdura",
+      "descricao": "Manjericão é uma verdura que pode ser utilizada em saladas, refogados e acompanhamentos.",
+      "nutrientes": [
+        "Vitamina K e compostos aromáticos"
+      ],
+      "beneficios": [
+        "Ajuda a diversificar o consumo de vegetais e fornece vitaminas, minerais e fibras."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Manjeric%C3%A3o,food?lock=65",
+      "receitas": [
+        {
+          "nome": "Refogado de manjericão",
+          "ingredientes": [
+            "Manjericão",
+            "alho",
+            "azeite",
+            "sal"
+          ],
+          "modoPreparo": "Higienize e pique. Refogue o alho no azeite, acrescente a verdura e cozinhe até ficar macia."
+        }
+      ]
+    },
+    {
+      "id": "hortela",
+      "nome": "Hortelã",
+      "categoria": "verdura",
+      "descricao": "Hortelã é uma verdura que pode ser utilizada em saladas, refogados e acompanhamentos.",
+      "nutrientes": [
+        "Vitamina A e compostos aromáticos"
+      ],
+      "beneficios": [
+        "Ajuda a diversificar o consumo de vegetais e fornece vitaminas, minerais e fibras."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Hortel%C3%A3,food?lock=66",
+      "receitas": [
+        {
+          "nome": "Refogado de hortelã",
+          "ingredientes": [
+            "Hortelã",
+            "alho",
+            "azeite",
+            "sal"
+          ],
+          "modoPreparo": "Higienize e pique. Refogue o alho no azeite, acrescente a verdura e cozinhe até ficar macia."
+        }
+      ]
+    },
+    {
+      "id": "aipo-salsao",
+      "nome": "Aipo (salsão)",
+      "categoria": "verdura",
+      "descricao": "Aipo (salsão) é uma verdura que pode ser utilizada em saladas, refogados e acompanhamentos.",
+      "nutrientes": [
+        "Água",
+        "vitamina K e potássio"
+      ],
+      "beneficios": [
+        "Ajuda a diversificar o consumo de vegetais e fornece vitaminas, minerais e fibras."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Aipo%20%28sals%C3%A3o%29,food?lock=67",
+      "receitas": [
+        {
+          "nome": "Refogado de aipo (salsão)",
+          "ingredientes": [
+            "Aipo (salsão)",
+            "alho",
+            "azeite",
+            "sal"
+          ],
+          "modoPreparo": "Higienize e pique. Refogue o alho no azeite, acrescente a verdura e cozinhe até ficar macia."
+        }
+      ]
+    },
+    {
+      "id": "alho-poro",
+      "nome": "Alho-poró",
+      "categoria": "verdura",
+      "descricao": "Alho-poró é uma verdura que pode ser utilizada em saladas, refogados e acompanhamentos.",
+      "nutrientes": [
+        "Fibras",
+        "vitamina K e folato"
+      ],
+      "beneficios": [
+        "Ajuda a diversificar o consumo de vegetais e fornece vitaminas, minerais e fibras."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Alho-por%C3%B3,food?lock=68",
+      "receitas": [
+        {
+          "nome": "Refogado de alho-poró",
+          "ingredientes": [
+            "Alho-poró",
+            "alho",
+            "azeite",
+            "sal"
+          ],
+          "modoPreparo": "Higienize e pique. Refogue o alho no azeite, acrescente a verdura e cozinhe até ficar macia."
+        }
+      ]
+    },
+    {
+      "id": "endivia",
+      "nome": "Endívia",
+      "categoria": "verdura",
+      "descricao": "Endívia é uma verdura que pode ser utilizada em saladas, refogados e acompanhamentos.",
+      "nutrientes": [
+        "Folato",
+        "fibras e vitamina K"
+      ],
+      "beneficios": [
+        "Ajuda a diversificar o consumo de vegetais e fornece vitaminas, minerais e fibras."
+      ],
+      "imagem": "https://loremflickr.com/800/500/End%C3%ADvia,food?lock=69",
+      "receitas": [
+        {
+          "nome": "Refogado de endívia",
+          "ingredientes": [
+            "Endívia",
+            "alho",
+            "azeite",
+            "sal"
+          ],
+          "modoPreparo": "Higienize e pique. Refogue o alho no azeite, acrescente a verdura e cozinhe até ficar macia."
+        }
+      ]
+    },
+    {
+      "id": "tomate",
+      "nome": "Tomate",
+      "categoria": "legume",
+      "descricao": "Tomate é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Licopeno",
+        "vitamina C e potássio"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Tomate,food?lock=70",
+      "receitas": [
+        {
+          "nome": "Tomate assado(a)",
+          "ingredientes": [
+            "Tomate",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "cenoura",
+      "nome": "Cenoura",
+      "categoria": "legume",
+      "descricao": "Cenoura é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Betacaroteno",
+        "fibras e vitamina K"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Cenoura,food?lock=71",
+      "receitas": [
+        {
+          "nome": "Cenoura assado(a)",
+          "ingredientes": [
+            "Cenoura",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "batata",
+      "nome": "Batata",
+      "categoria": "legume",
+      "descricao": "Batata é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Potássio",
+        "vitamina C e amido"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Batata,food?lock=72",
+      "receitas": [
+        {
+          "nome": "Batata assado(a)",
+          "ingredientes": [
+            "Batata",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "batata-doce",
+      "nome": "Batata-doce",
+      "categoria": "legume",
+      "descricao": "Batata-doce é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Betacaroteno",
+        "fibras e potássio"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Batata-doce,food?lock=73",
+      "receitas": [
+        {
+          "nome": "Batata-doce assado(a)",
+          "ingredientes": [
+            "Batata-doce",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "mandioca",
+      "nome": "Mandioca",
+      "categoria": "legume",
+      "descricao": "Mandioca é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Carboidratos e vitamina C"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Mandioca,food?lock=74",
+      "receitas": [
+        {
+          "nome": "Mandioca assado(a)",
+          "ingredientes": [
+            "Mandioca",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "mandioquinha",
+      "nome": "Mandioquinha",
+      "categoria": "legume",
+      "descricao": "Mandioquinha é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Carboidratos",
+        "fibras e potássio"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Mandioquinha,food?lock=75",
+      "receitas": [
+        {
+          "nome": "Mandioquinha assado(a)",
+          "ingredientes": [
+            "Mandioquinha",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "beterraba",
+      "nome": "Beterraba",
+      "categoria": "legume",
+      "descricao": "Beterraba é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Folato",
+        "fibras e nitratos naturais"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Beterraba,food?lock=76",
+      "receitas": [
+        {
+          "nome": "Beterraba assado(a)",
+          "ingredientes": [
+            "Beterraba",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "abobora",
+      "nome": "Abóbora",
+      "categoria": "legume",
+      "descricao": "Abóbora é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Betacaroteno",
+        "fibras e potássio"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Ab%C3%B3bora,food?lock=77",
+      "receitas": [
+        {
+          "nome": "Abóbora assado(a)",
+          "ingredientes": [
+            "Abóbora",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "abobrinha",
+      "nome": "Abobrinha",
+      "categoria": "legume",
+      "descricao": "Abobrinha é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Água",
+        "vitamina C e potássio"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Abobrinha,food?lock=78",
+      "receitas": [
+        {
+          "nome": "Abobrinha assado(a)",
+          "ingredientes": [
+            "Abobrinha",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "berinjela",
+      "nome": "Berinjela",
+      "categoria": "legume",
+      "descricao": "Berinjela é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Fibras",
+        "manganês e antocianinas"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Berinjela,food?lock=79",
+      "receitas": [
+        {
+          "nome": "Berinjela assado(a)",
+          "ingredientes": [
+            "Berinjela",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "pepino",
+      "nome": "Pepino",
+      "categoria": "legume",
+      "descricao": "Pepino é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Água",
+        "vitamina K e fibras"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Pepino,food?lock=80",
+      "receitas": [
+        {
+          "nome": "Pepino assado(a)",
+          "ingredientes": [
+            "Pepino",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "pimentao-verde",
+      "nome": "Pimentão verde",
+      "categoria": "legume",
+      "descricao": "Pimentão verde é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Vitamina C e vitamina B6"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Piment%C3%A3o%20verde,food?lock=81",
+      "receitas": [
+        {
+          "nome": "Pimentão verde assado(a)",
+          "ingredientes": [
+            "Pimentão verde",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "pimentao-vermelho",
+      "nome": "Pimentão vermelho",
+      "categoria": "legume",
+      "descricao": "Pimentão vermelho é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Vitamina C",
+        "vitamina A e carotenoides"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Piment%C3%A3o%20vermelho,food?lock=82",
+      "receitas": [
+        {
+          "nome": "Pimentão vermelho assado(a)",
+          "ingredientes": [
+            "Pimentão vermelho",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "cebola",
+      "nome": "Cebola",
+      "categoria": "legume",
+      "descricao": "Cebola é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Fibras e compostos sulfurados"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Cebola,food?lock=83",
+      "receitas": [
+        {
+          "nome": "Cebola assado(a)",
+          "ingredientes": [
+            "Cebola",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "alho",
+      "nome": "Alho",
+      "categoria": "legume",
+      "descricao": "Alho é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Compostos sulfurados e manganês"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Alho,food?lock=84",
+      "receitas": [
+        {
+          "nome": "Alho assado(a)",
+          "ingredientes": [
+            "Alho",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "brocolis",
+      "nome": "Brócolis",
+      "categoria": "legume",
+      "descricao": "Brócolis é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Vitaminas C e K",
+        "folato e fibras"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Br%C3%B3colis,food?lock=85",
+      "receitas": [
+        {
+          "nome": "Brócolis assado(a)",
+          "ingredientes": [
+            "Brócolis",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "couve-flor",
+      "nome": "Couve-flor",
+      "categoria": "legume",
+      "descricao": "Couve-flor é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Vitamina C",
+        "folato e fibras"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Couve-flor,food?lock=86",
+      "receitas": [
+        {
+          "nome": "Couve-flor assado(a)",
+          "ingredientes": [
+            "Couve-flor",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "vagem",
+      "nome": "Vagem",
+      "categoria": "legume",
+      "descricao": "Vagem é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Fibras",
+        "vitamina C e vitamina K"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Vagem,food?lock=87",
+      "receitas": [
+        {
+          "nome": "Vagem assado(a)",
+          "ingredientes": [
+            "Vagem",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "ervilha",
+      "nome": "Ervilha",
+      "categoria": "legume",
+      "descricao": "Ervilha é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Proteínas vegetais",
+        "fibras e folato"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Ervilha,food?lock=88",
+      "receitas": [
+        {
+          "nome": "Ervilha assado(a)",
+          "ingredientes": [
+            "Ervilha",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "milho",
+      "nome": "Milho",
+      "categoria": "legume",
+      "descricao": "Milho é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Carboidratos",
+        "fibras e vitaminas B"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Milho,food?lock=89",
+      "receitas": [
+        {
+          "nome": "Milho assado(a)",
+          "ingredientes": [
+            "Milho",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "quiabo",
+      "nome": "Quiabo",
+      "categoria": "legume",
+      "descricao": "Quiabo é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Fibras",
+        "folato e vitamina C"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Quiabo,food?lock=90",
+      "receitas": [
+        {
+          "nome": "Quiabo assado(a)",
+          "ingredientes": [
+            "Quiabo",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "chuchu",
+      "nome": "Chuchu",
+      "categoria": "legume",
+      "descricao": "Chuchu é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Água",
+        "fibras e vitamina C"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Chuchu,food?lock=91",
+      "receitas": [
+        {
+          "nome": "Chuchu assado(a)",
+          "ingredientes": [
+            "Chuchu",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "nabo",
+      "nome": "Nabo",
+      "categoria": "legume",
+      "descricao": "Nabo é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Vitamina C e fibras"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Nabo,food?lock=92",
+      "receitas": [
+        {
+          "nome": "Nabo assado(a)",
+          "ingredientes": [
+            "Nabo",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "rabanete",
+      "nome": "Rabanete",
+      "categoria": "legume",
+      "descricao": "Rabanete é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Vitamina C e fibras"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Rabanete,food?lock=93",
+      "receitas": [
+        {
+          "nome": "Rabanete assado(a)",
+          "ingredientes": [
+            "Rabanete",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "jilo",
+      "nome": "Jiló",
+      "categoria": "legume",
+      "descricao": "Jiló é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Fibras e vitamina C"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Jil%C3%B3,food?lock=94",
+      "receitas": [
+        {
+          "nome": "Jiló assado(a)",
+          "ingredientes": [
+            "Jiló",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "palmito",
+      "nome": "Palmito",
+      "categoria": "legume",
+      "descricao": "Palmito é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Fibras",
+        "potássio e folato"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Palmito,food?lock=95",
+      "receitas": [
+        {
+          "nome": "Palmito assado(a)",
+          "ingredientes": [
+            "Palmito",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "aspargo",
+      "nome": "Aspargo",
+      "categoria": "legume",
+      "descricao": "Aspargo é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Folato",
+        "vitamina K e fibras"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Aspargo,food?lock=96",
+      "receitas": [
+        {
+          "nome": "Aspargo assado(a)",
+          "ingredientes": [
+            "Aspargo",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "alcachofra",
+      "nome": "Alcachofra",
+      "categoria": "legume",
+      "descricao": "Alcachofra é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Fibras",
+        "folato e magnésio"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Alcachofra,food?lock=97",
+      "receitas": [
+        {
+          "nome": "Alcachofra assado(a)",
+          "ingredientes": [
+            "Alcachofra",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "cogumelo",
+      "nome": "Cogumelo",
+      "categoria": "legume",
+      "descricao": "Cogumelo é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Vitaminas do complexo B e selênio"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Cogumelo,food?lock=98",
+      "receitas": [
+        {
+          "nome": "Cogumelo assado(a)",
+          "ingredientes": [
+            "Cogumelo",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "abobora-cabotia",
+      "nome": "Abóbora cabotiá",
+      "categoria": "legume",
+      "descricao": "Abóbora cabotiá é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Betacaroteno",
+        "fibras e potássio"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Ab%C3%B3bora%20caboti%C3%A1,food?lock=99",
+      "receitas": [
+        {
+          "nome": "Abóbora cabotiá assado(a)",
+          "ingredientes": [
+            "Abóbora cabotiá",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "inhame",
+      "nome": "Inhame",
+      "categoria": "legume",
+      "descricao": "Inhame é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Carboidratos",
+        "fibras e potássio"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Inhame,food?lock=100",
+      "receitas": [
+        {
+          "nome": "Inhame assado(a)",
+          "ingredientes": [
+            "Inhame",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "cara",
+      "nome": "Cará",
+      "categoria": "legume",
+      "descricao": "Cará é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Carboidratos",
+        "fibras e vitamina C"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Car%C3%A1,food?lock=101",
+      "receitas": [
+        {
+          "nome": "Cará assado(a)",
+          "ingredientes": [
+            "Cará",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "maxixe",
+      "nome": "Maxixe",
+      "categoria": "legume",
+      "descricao": "Maxixe é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Água",
+        "fibras e vitamina C"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Maxixe,food?lock=102",
+      "receitas": [
+        {
+          "nome": "Maxixe assado(a)",
+          "ingredientes": [
+            "Maxixe",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "broto-de-feijao",
+      "nome": "Broto de feijão",
+      "categoria": "legume",
+      "descricao": "Broto de feijão é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Vitamina C",
+        "folato e fibras"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Broto%20de%20feij%C3%A3o,food?lock=103",
+      "receitas": [
+        {
+          "nome": "Broto de feijão assado(a)",
+          "ingredientes": [
+            "Broto de feijão",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    },
+    {
+      "id": "edamame",
+      "nome": "Edamame",
+      "categoria": "legume",
+      "descricao": "Edamame é um alimento versátil, utilizado em preparações cozidas, assadas, refogadas ou cruas, conforme o tipo.",
+      "nutrientes": [
+        "Proteínas vegetais",
+        "fibras e folato"
+      ],
+      "beneficios": [
+        "Pode contribuir com fibras, vitaminas e minerais em uma alimentação variada."
+      ],
+      "imagem": "https://loremflickr.com/800/500/Edamame,food?lock=104",
+      "receitas": [
+        {
+          "nome": "Edamame assado(a)",
+          "ingredientes": [
+            "Edamame",
+            "azeite",
+            "alho",
+            "ervas e sal"
+          ],
+          "modoPreparo": "Higienize, corte em pedaços, tempere e asse em forno preaquecido até ficar macio."
+        }
+      ]
+    }
+  ]
+}
